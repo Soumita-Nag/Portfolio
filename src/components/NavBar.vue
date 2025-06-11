@@ -1,6 +1,6 @@
 <template>
   <section class="flex justify-between items-center p-6 bg-opacity-50 relative z-20">
-    <div class="text-white text-3xl font-black">Soumita Nag</div>
+    <div class="text-white text-3xl font-black">Soumita <span class="text-[var(--color-primary)]">Nag</span></div>
     <div class="md:hidden z-30">
       <button type="button" class="block text-[var(--color-primary)] focus:outline-none" @click="toggleMenu">
         <span v-if="isMenuOpen" class="text-5xl">
