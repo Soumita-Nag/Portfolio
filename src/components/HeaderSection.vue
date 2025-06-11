@@ -30,6 +30,15 @@
           </a>
         </div>
       </div>
+      <div class="flex justify-center items-center relative h-96 lg:h-full">
+        <!-- Glowing Circular Background -->
+        <div class="absolute top-1/2 right-0 -translate-y-1/2 w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-tr from-[#570cac] to-[var(--color-primary)] opacity-25 blur-2xl z-0"></div>
+
+        <!-- Profile Image -->
+        <div class="relative z-10 w-72 h-72 sm:w-80 sm:h-80 lg:w-86  lg:h-90 rounded-full border-2 border-[var(--color-primary)] shadow-lg p-1 box-border">
+          <img src="@/assets/profile.jpg" alt="Soumita's Photo" loading="lazy" class="w-full h-full rounded-full object-cover" />
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -46,5 +55,5 @@ export default {
 </script>
 
 <style scoped>
-/* Add custom styles here if needed */
+
 </style>
