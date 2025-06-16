@@ -1,5 +1,5 @@
 <template>
-  <section class="text-white mt-18" id="about">
+  <section class="text-white mt-10" id="about">
     <!-- Gradient Background -->
     <div class="absolute z-0 top-[93rem] inset-x-0 h-64 flex items-start">
       <div class="h-24 w-64 bg-gradient-to-br from-[var(--color-primary)] via-[var(--color-secondary)] to-[#570cac] blur-2xl opacity-20"></div>
