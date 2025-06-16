@@ -2,6 +2,7 @@
 import NavBar from './components/NavBar.vue';
 import HeaderSection from './components/HeaderSection.vue'
 import About from './components/About.vue';
+import skills from './components/skills.vue';
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import About from './components/About.vue';
     <NavBar/>
     <HeaderSection/>
     <About/>
+    <skills/>
   </div>
 </template>
 
