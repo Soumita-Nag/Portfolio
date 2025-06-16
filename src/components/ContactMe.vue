@@ -10,17 +10,18 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed optio repudiandae porro quia? Pariatur dolores totam debitis, architecto ipsam repellat voluptatum neque aliquid, laboriosam corrupti temporibus tempora sit quaerat atque, facilis reprehenderit asperiores earum?
         </p>
 
-        <div class="mt-5">
-          <div v-for="(item, index) in contacts" :key="index" class="flex mb-10 items-center">
-            <div class="emailLogo">
-              <img :src="item.icon" alt="" class="w-6" />
+        <div class="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-10">
+            <div v-for="(item, index) in contacts" :key="index" class="flex items-center">
+                <div class="emailLogo">
+                    <img :src="item.icon" alt="" class="w-6" />
+                </div>
+                <div class="ml-5">
+                    <h4 class="capitalize">{{ item.label }}</h4>
+                    <p>{{ item.value }}</p>
+                </div>
             </div>
-            <div class="ml-5">
-              <h4 class="capitalize">{{ item.label }}</h4>
-              <p>{{ item.value }}</p>
-            </div>
-          </div>
         </div>
+
       </div>
 
       <!-- Right: Form -->
@@ -91,7 +92,32 @@ export default {
           label: "github",
           value: "Soumita-Nag",
           icon: "https://img.icons8.com/ios-filled/50/ffffff/github.png"
-        }
+        },
+        {
+          label: "Twitter",
+          value: "Soumita-Nag",
+          icon: "https://img.icons8.com/ios-filled/50/ffffff/twitter.png"
+        },
+        {
+          label: "Instagram",
+          value: "Soumita-Nag",
+          icon: "https://img.icons8.com/ios-filled/50/ffffff/instagram.png"
+        },
+        {
+          label: "Hackerrank",
+          value: "Soumita-Nag",
+          icon: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-color-tal-revivo.png"
+        },
+        {
+          label: "LeetCode",
+          value: "Soumita-Nag",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
+        },
+        {
+          label: "GeeksForGeeks",
+          value: "Soumita-Nag",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg"
+        },
       ]
     };
   }
