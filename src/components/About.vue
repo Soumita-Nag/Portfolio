@@ -1,5 +1,5 @@
 <template>
-  <section class="text-white mt-10" id="about">
+  <section class="text-white mt-10">
     <!-- Gradient Background -->
     <div class="absolute z-0 top-[93rem] inset-x-0 h-64 flex items-start">
       <div class="h-24 w-64 bg-gradient-to-br from-[var(--color-primary)] via-[var(--color-secondary)] to-[#570cac] blur-2xl opacity-20"></div>
@@ -49,6 +49,7 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Et inventore quisquam, maxime mollitia temporibus facere facilis ex dolore porro iure eveniet esse quae, dignissimos molestias pariatur unde assumenda, enim tenetur laudantium accusantium perferendis architecto!
         </p>
       </div>
+      <div id="skills"></div>
     </div>
   </section>
 </template>
