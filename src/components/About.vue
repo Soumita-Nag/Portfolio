@@ -6,11 +6,11 @@
     </div>
 
     <!-- Main Grid Layout -->
-    <div class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 relative z-10">
+    <div class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-8 sm:py-16 xl:px-16 relative z-10">
     <!-- Education Section -->
         <div data-aos="flip-right">
         <h2 class="text-4xl font-bold text-left mb-8">My <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)]">Education</span></h2>
-        <div class="space-y-8 py-8">
+        <div class="space-y-5 py-8">
             <div
             v-for="e in education"
             :key="e.id"
@@ -28,12 +28,16 @@
             </div>
 
             <!-- Text Section -->
-            <div class="w-3/4 pl-6">
-                <h3 class="text-xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)]">
-                {{ e.school }}
+            <div class="w-[100%] pl-6">
+                <h3 class="text-[1.15rem] font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)]">
+                {{ e.program }}
                 </h3>
-                <p class="text-sm text-white mt-1">{{ e.program }}</p>
-                <p class="text-sm text-gray-400">{{ e.yearFrom }} - {{ e.yearTo }}</p>
+                <p class="text-[1rem] text-white mt-1">{{ e.school }}</p>
+                <div class="flex justify-between"> 
+                  <p class="text-sm text-gray-400" v-if="e.id==1 || e.id==2">CGPA : {{ e.grade }}</p>
+                  <p class="text-sm text-gray-400" v-else>Percentage : {{ e.grade }}</p>
+                  <p class="text-[0.8rem] text-gray-400">{{ e.yearFrom }} - {{ e.yearTo }}</p>
+                </div>
             </div>
             </div>
         </div>
@@ -65,14 +69,32 @@ export default {
           school: 'Jadavpur University',
           program: 'Master of Computer Application (MCA)',
           yearFrom: 2024,
-          yearTo: 'Present'
+          yearTo: 'Present',
+          grade: 'Not Available'
         },
         {
           id: 2,
           school: 'Banwarilal Bhalotia College, Asansole',
           program: 'BSc. in Computer Science',
           yearFrom: 2021,
-          yearTo: 2024
+          yearTo: 2024,
+          grade: '8.84'
+        },
+        {
+          id: 3,
+          school: 'Gandhi Memorial Girls High School(HS), Raniganj',
+          program: 'Higher Secondary (WBCHSE)',
+          yearFrom: 2020,
+          yearTo: 2021,
+          grade: '87.6'
+        },
+        {
+          id: 4,
+          school: 'Gandhi Memorial Girls High School(HS), Raniganj',
+          program: 'Secondary (WBSE)',
+          yearFrom: 2018,
+          yearTo: 2019,
+          grade: '85.57'
         }
       ]
     };
