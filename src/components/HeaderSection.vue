@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full pt-15 px-5 sm:px-8 md:px-12 lg:px-8 max-w-screen-lg xl:max-w-screen-xl mx-auto" data-aos="zoom-in-up" id="home">
+  <section class="w-full py-25 px-5 sm:px-8 md:px-12 lg:px-8 max-w-screen-lg xl:max-w-screen-xl mx-auto" data-aos="zoom-in-up" id="home">
     <div class="grid lg:grid-cols-2 gap-10 xl:gap-14 pt-10 max-w-3xl lg:max-w-none mx-auto">
       <div class="lg:py-6">
         <!-- Heading -->

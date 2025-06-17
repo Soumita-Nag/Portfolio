@@ -15,7 +15,7 @@ import ContactMe from './components/ContactMe.vue';
     <ContactMe/>
   </div>
 </template>
-
+<!-- gsap -->
 <style scoped>
 
 </style>

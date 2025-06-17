@@ -1,7 +1,7 @@
 <template>
   <section class="sticky top-0 z-50 flex justify-between items-center p-6 bg-[var(--color-bg)] bg-opacity-90 backdrop-blur-md">
     <div class="text-white text-3xl font-bold">
-      Soumita <span class="text-[var(--color-primary)]">Nag</span>
+      Soumita <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)]">Nag</span>
     </div>
 
     <!-- Mobile menu toggle -->

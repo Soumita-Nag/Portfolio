@@ -9,7 +9,7 @@
     <div class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 relative z-10">
     <!-- Education Section -->
         <div data-aos="flip-right">
-        <h2 class="text-4xl font-bold text-left mb-8">My Education</h2>
+        <h2 class="text-4xl font-bold text-left mb-8">My <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)]">Education</span></h2>
         <div class="space-y-8 py-8">
             <div
             v-for="e in education"

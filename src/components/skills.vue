@@ -10,19 +10,14 @@
         <div v-for="(group, index) in skillCategories" :key="index" class="space-y-6">
           <h3 class="text-2xl font-semibold" data-aos="fade-up">{{ group.title }}</h3>
 
-          <!-- Optional Subtitle like Frontend/Backend -->
-          <template v-if="group.subtitle">
-            <p class="font-semibold" data-aos="fade-up">🔸 {{ group.subtitle }}</p>
-          </template>
-
           <!-- Skills -->
           <div v-for="skill in group.skills" :key="skill.id" class="mb-4" data-aos="fade-up">
             <div class="flex items-center justify-between">
               <h4 class="font-semibold uppercase">{{ skill.name }}</h4>
               <span class="text-xl font-bold">{{ skill.width }}</span>
             </div>
-            <div class="mt-2 h-1 w-full bg-[#131d30] rounded-full">
-              <div class="h-1 rounded-full bg-[var(--color-primary)]" :style="`width: ${skill.width}`"></div>
+            <div class="mt-2 h-1 w-[80%] bg-[#1f2f4b] rounded-full">
+              <div class="h-1 rounded-full bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)]" :style="`width: ${skill.width}`"></div>
             </div>
           </div>
         </div>

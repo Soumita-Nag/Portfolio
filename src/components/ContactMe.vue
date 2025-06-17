@@ -1,6 +1,6 @@
 <template>
   <section id="contact" class="text-white mt-20">
-    <h2 class="text-4xl font-bold mb-4 px-4 xl:pl-16">Let's Connect</h2>
+    <h2 class="text-4xl font-bold mb-4 px-4 xl:pl-16">Let's <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)]">Connect</span></h2>
 
     <div class="grid md:grid-cols-2 gap-4 relative px-4 xl:px-16 mt-8" data-aos="zoom-in-up">
       
