@@ -1,6 +1,6 @@
 <template>
-  <section class="w-full py-20 px-5 sm:px-8 md:px-12 lg:px-8 max-w-screen-lg xl:max-w-screen-xl mx-auto" data-aos="zoom-in-up" id="home">
-    <div class="grid lg:grid-cols-2 gap-10 xl:gap-14 pt-10 max-w-3xl lg:max-w-none mx-auto">
+  <section class="w-full py-20 px-5 sm:px-8 md:px-12 lg:px-8 max-w-screen-lg xl:max-w-screen-xl mx-auto"  id="home">
+    <div class="grid lg:grid-cols-2 gap-10 xl:gap-14 pt-10 max-w-3xl lg:max-w-none mx-auto" data-aos="zoom-in-up">
       <div class="lg:py-6">
         <!-- Heading -->
         <div class="text-center lg:text-left">
@@ -50,7 +50,10 @@ import 'aos/dist/aos.css'
 
 export default {
   mounted() {
-    AOS.init({ duration: 1000, once: true })
+    AOS.init({ duration: 1000, once: false, offset:100 })
+  },
+  updated(){
+    AOS.refresh();
   }
 }
 </script>
