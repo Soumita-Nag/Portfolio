@@ -39,7 +39,7 @@
                   <p class="text-[0.8rem] text-gray-400">{{ e.yearFrom }} - {{ e.yearTo }}</p>
                 </div>
             </div>
-            </div>
+            </div>  
         </div>
         </div>
       <!-- About Me Section -->

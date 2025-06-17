@@ -34,10 +34,18 @@
         <!-- Glowing Circular Background -->
         <div class="absolute top-1/2 right-0 -translate-y-1/2 w-92 h-92 sm:w-95 sm:h-95 lg:w-110 lg:h-110 rounded-full bg-gradient-to-tr from-[#570cac] to-[var(--color-primary)] opacity-25 blur-2xl z-0"></div>
 
-        <!-- Profile Image -->
-        <div class="relative z-10 w-92 h-92 sm:w-95 sm:h-95 lg:w-110 lg:h-110 rounded-full border-2 border-[var(--color-primary)] shadow-lg p-1 box-border">
-          <img src="@/assets/profile.jpg" alt="Soumita's Photo" loading="lazy" class="w-full h-full rounded-full object-cover" />
+        <!-- Gradient Border Wrapper -->
+        <div class="w-92 h-92 sm:w-95 sm:h-95 lg:w-110 lg:h-110 rounded-full p-[3px] bg-gradient-to-tr from-[var(--color-primary)] to-pink-500">
+
+          <!-- Image Container -->
+          <div class="w-full h-full rounded-full bg-black p-1 box-border">
+            <img src="@/assets/profile.jpg" alt="Soumita's Photo"
+              loading="lazy"
+              class="w-full h-full rounded-full object-cover" />
+          </div>
+
         </div>
+
       </div>
     </div>
     <div id="about"></div>
