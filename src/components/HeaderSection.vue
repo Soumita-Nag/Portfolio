@@ -8,7 +8,7 @@
             Hi, I'm 
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-primary)] to-pink-500">
               Soumita
-            </span> 👻.
+            </span> 👻
             <!-- emoji: windows+. or windows+; -->
           </h1>
         </div>

@@ -18,6 +18,13 @@ import ContactMe from './components/ContactMe.vue';
   </div>
 </template>
 <!-- gsap -->
-<style scoped>
-
+<style>
+  ::-webkit-scrollbar{
+    width: 8px;
+    background-color: var(--color-bg);
+  }
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
+    border-radius: 20px;
+  }
 </style>
