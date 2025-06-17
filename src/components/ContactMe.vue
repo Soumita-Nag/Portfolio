@@ -25,50 +25,52 @@
       </div>
 
       <!-- Right: Form -->
-        <div class="bg-[#111a3e] w-full h-full rounded-2xl border border-[#111a3e] backdrop-blur-lg p-6">
+        <div class="bg-[#101838] w-full h-full rounded-2xl border border-none backdrop-blur-lg p-6">
         <form class="space-y-6" data-aos="zoom-in-up">
             <div>
             <label for="email" class="block mb-2 text-sm font-medium text-white">Email</label>
-            <input
+            <div class="focus-within:border-transparent focus-within:bg-gradient-to-r focus-within:from-[var(--color-primary)] focus-within:to-[var(--color-secondary)] p-[2px] rounded-lg transition">
+              <input
                 type="email"
                 id="email"
                 placeholder="Enter your email"
-                class="w-full p-3 rounded-lg bg-[#111827] text-white placeholder-gray-400 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] transition"
-            />
+                class="w-full p-3 rounded-lg bg-[#111827] text-white placeholder-gray-400 border border-transparent focus:outline-none"
+              />
+            </div>
             </div>
 
             <div>
             <label for="subject" class="block mb-2 text-sm font-medium text-white">Subject</label>
-            <input
-                type="text"
-                id="subject"
-                placeholder="Subject of your message"
-                class="w-full p-3 rounded-lg bg-[#111827] text-white placeholder-gray-400 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] transition"
-            />
+            <div class="focus-within:border-transparent focus-within:bg-gradient-to-r focus-within:from-[var(--color-primary)] focus-within:to-[var(--color-secondary)] p-[2px] rounded-lg transition">
+              <input
+                  type="text"
+                  id="subject"
+                  placeholder="Subject of your message"
+                  class="w-full p-3 rounded-lg bg-[#111827] text-white placeholder-gray-400 border border-gray-600 focus:outline-none transition"
+              />
+            </div>
             </div>
 
             <div>
             <label for="message" class="block mb-2 text-sm font-medium text-white">Message</label>
-            <textarea
-                id="message"
-                rows="5"
-                placeholder="Your message..."
-                class="w-full p-3 rounded-lg bg-[#111827] text-white placeholder-gray-400 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] transition"
-            ></textarea>
+            <div class="focus-within:border-transparent focus-within:bg-gradient-to-r focus-within:from-[var(--color-primary)] focus-within:to-[var(--color-secondary)] p-[2px] rounded-lg transition">
+              <textarea
+                  id="message"
+                  rows="5"
+                  placeholder="Your message..."
+                  class="w-full p-3 rounded-lg bg-[#111827] text-white placeholder-gray-400 border border-gray-600 focus:outline-none transition"
+              ></textarea>
+            </div>
             </div>
 
             <button
             type="submit"
-            class="w-full px-6 py-3 rounded-full bg-[var(--color-primary)] text-white font-semibold hover:bg-opacity-90 transition border-2 border-transparent"
+            class="w-full px-6 py-3 rounded-full bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)] text-white text-[1.1rem] hover:cursor-pointer font-bold hover:bg-opacity-90 transition border-2 border-transparent"
             >
             Send Message
             </button>
         </form>
         </div>
-
-
-      <!-- Background Glow -->
-      <div class="bg-gradient-to-tr opacity-25 from-[#570cac] to-[var(--color-primary)] blur-2xl h-20 w-80 z-0 absolute -top-1/2 -left-4 -translate-x-2/3 -translate-y-1/2"></div>
     </div>
   </section>
 </template>
