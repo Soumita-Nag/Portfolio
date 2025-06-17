@@ -1,19 +1,19 @@
 <template>
-    <section id="achievements" class="text-white">
+    <section id="achievements" class="text-white relative z-10 pt-20">
         <h2 class="text-4xl font-bold mb-4 px-4 xl:pl-16">My <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)]">Achievements</span></h2>
         <div class="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-8 items-center py-8 px-4 xl:gap-8 sm:py-16 xl:px-16 relative z-10">
-            <div v-for="card in cards">
-                <div class="w-full h-70 bg-[#111a3e] rounded-2xl flex flex-col items-center justify-center text-center">
-                    <div class="text-6xl">
+            <div v-for="card in cards" data-aos="flip-down">
+                <div class="w-full h-75 px-4 py-4 bg-[#111a3e] rounded-2xl flex flex-col items-center justify-center text-center">
+                    <div class="h-20 flex justify-center items-center text-[4rem]">
                         <p v-if="card.id==1">🏅</p>
                         <p v-else-if="card.id==2">🥇</p>
                         <p v-else-if="card.id==3 || card.id==4">🥈</p>
-                        <p v-else-if="card.id==5"><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" class="h-20" alt=""></p>
-                        <p v-else-if="card.id==6"><img src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg" alt=""></p>
+                        <p v-else-if="card.id==5"><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" class="h-[4.5rem]" alt=""></p>
+                        <p v-else-if="card.id==6"><img src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg" class="h-[3rem]" alt=""></p>
                     </div>
-                    <p class=" text-transparent bg-clip-text bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-secondary)] text-2xl font-bold" >{{ card.rank }}</p>
-                    <p>{{ card.event }}</p>
-                    <p>{{ card.location }}</p>
+                    <p class=" text-transparent bg-clip-text bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-secondary)] text-[1.6rem] font-bold" >{{ card.rank }}</p>
+                    <p class="text-[1.15rem] font-semibold">{{ card.event }}</p>
+                    <p class="text-[1rem] opacity-80">{{ card.location }}</p>
                     <p>{{ card.link }}</p>
                 </div>
             </div>
