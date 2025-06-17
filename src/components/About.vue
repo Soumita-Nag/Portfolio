@@ -1,10 +1,5 @@
 <template>
-  <section class="text-white mt-10">
-    <!-- Gradient Background -->
-    <div class="absolute z-0 top-[93rem] inset-x-0 h-64 flex items-start">
-      <div class="h-24 w-64 bg-gradient-to-br from-[var(--color-primary)] via-[var(--color-secondary)] to-[#570cac] blur-2xl opacity-20"></div>
-    </div>
-
+  <section class="text-white mt-10">  
     <!-- Main Grid Layout -->
     <div class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-8 sm:py-16 xl:px-16 relative z-10">
     <!-- Education Section -->
