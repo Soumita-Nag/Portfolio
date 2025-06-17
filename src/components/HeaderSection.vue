@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full py-25 px-5 sm:px-8 md:px-12 lg:px-8 max-w-screen-lg xl:max-w-screen-xl mx-auto" data-aos="zoom-in-up" id="home">
+  <section class="w-full py-20 px-5 sm:px-8 md:px-12 lg:px-8 max-w-screen-lg xl:max-w-screen-xl mx-auto" data-aos="zoom-in-up" id="home">
     <div class="grid lg:grid-cols-2 gap-10 xl:gap-14 pt-10 max-w-3xl lg:max-w-none mx-auto">
       <div class="lg:py-6">
         <!-- Heading -->
@@ -32,10 +32,10 @@
       </div>
       <div class="flex justify-center items-center relative h-96 lg:h-full">
         <!-- Glowing Circular Background -->
-        <div class="absolute top-1/2 right-0 -translate-y-1/2 w-72 h-72 sm:w-80 sm:h-80 lg:w-86 lg:h-90 rounded-full bg-gradient-to-tr from-[#570cac] to-[var(--color-primary)] opacity-25 blur-2xl z-0"></div>
+        <div class="absolute top-1/2 right-0 -translate-y-1/2 w-92 h-92 sm:w-95 sm:h-95 lg:w-110 lg:h-110 rounded-full bg-gradient-to-tr from-[#570cac] to-[var(--color-primary)] opacity-25 blur-2xl z-0"></div>
 
         <!-- Profile Image -->
-        <div class="relative z-10 w-72 h-72 sm:w-80 sm:h-80 lg:w-86  lg:h-90 rounded-full border-2 border-[var(--color-primary)] shadow-lg p-1 box-border">
+        <div class="relative z-10 w-92 h-92 sm:w-95 sm:h-95 lg:w-110 lg:h-110 rounded-full border-2 border-[var(--color-primary)] shadow-lg p-1 box-border">
           <img src="@/assets/profile.jpg" alt="Soumita's Photo" loading="lazy" class="w-full h-full rounded-full object-cover" />
         </div>
       </div>
