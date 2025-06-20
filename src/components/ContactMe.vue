@@ -13,8 +13,11 @@
         <div class="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-10">
             <div v-for="(item, index) in contacts" :key="index" class="flex items-center">
               <!-- <a :href="item.url"> -->
-                <div class="Logo" >
-                    <img :src="item.icon" alt="" class="w-6" />
+                <a class="Logo" v-if="item.url" :href="item.url" target="_blank">
+                  <img :src="item.icon" alt="" class="w-6" />
+                </a>
+                <div v-else class="Logo">
+                  <img :src="item.icon" alt="" class="w-6" />
                 </div>
                 <div class="ml-5">
                     <h4 class="capitalize">{{ item.label }}</h4>
@@ -86,7 +89,7 @@ export default {
           label: "email",
           value: "nagsoumita04@gmail.com",
           icon: "https://img.icons8.com/metro/50/ffffff/new-post.png",
-          url:"nagsoumita04@gmail.com",
+          url:"",
         },
         {
           label: "linkedin",
