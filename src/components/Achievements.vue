@@ -3,7 +3,7 @@
         <h2 class="text-4xl font-bold mb-4 px-4 xl:pl-16">My <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)]">Achievements</span></h2>
         <div class="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-8 items-center py-8 px-4 xl:gap-8 sm:py-16 xl:px-16 relative z-10">
             <div v-for="card in cards" data-aos="flip-down">
-                <div class="w-full h-75 px-4 py-4 bg-[#111a3e] rounded-2xl flex flex-col items-center justify-center text-center">
+                <div class="w-full h-75 px-4 py-4 bg-[#111a3e] hover:bg-[#18224c] rounded-2xl flex flex-col items-center justify-center text-center">
                     <div class="h-20 flex justify-center items-center text-[4rem]">
                         <p v-if="card.id==1">🏅</p>
                         <p v-else-if="card.id==2">🥇</p>

@@ -7,18 +7,20 @@
       <!-- Left: Info -->
       <div>
         <p class="text-[#adb7be]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed optio repudiandae porro quia? Pariatur dolores totam debitis, architecto ipsam repellat voluptatum neque aliquid, laboriosam corrupti temporibus tempora sit quaerat atque, facilis reprehenderit asperiores earum?
+          I’m always open to new opportunities, collaborations, or just a friendly chat! Whether you have a question, want to discuss a project, or simply want to connect, feel free to drop a message. I’ll try my best to get back to you as soon as possible. Let’s build something awesome together! 
         </p>
 
         <div class="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-10">
             <div v-for="(item, index) in contacts" :key="index" class="flex items-center">
-                <div class="emailLogo">
+              <!-- <a :href="item.url"> -->
+                <div class="Logo" >
                     <img :src="item.icon" alt="" class="w-6" />
                 </div>
                 <div class="ml-5">
                     <h4 class="capitalize">{{ item.label }}</h4>
                     <p>{{ item.value }}</p>
                 </div>
+              <!-- </a> -->
             </div>
         </div>
 
@@ -64,7 +66,7 @@
             </div>
 
             <button
-            type="submit"
+            type="button"
             class="w-full px-6 py-3 rounded-full bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)] text-white text-[1.1rem] hover:cursor-pointer font-bold hover:bg-opacity-90 transition border-2 border-transparent"
             >
             Send Message
@@ -83,42 +85,50 @@ export default {
         {
           label: "email",
           value: "nagsoumita04@gmail.com",
-          icon: "https://img.icons8.com/metro/50/ffffff/new-post.png"
+          icon: "https://img.icons8.com/metro/50/ffffff/new-post.png",
+          url:"nagsoumita04@gmail.com",
         },
         {
           label: "linkedin",
           value: "Soumita-Nag",
-          icon: "https://img.icons8.com/ios-filled/50/ffffff/linkedin.png"
+          icon: "https://img.icons8.com/ios-filled/50/ffffff/linkedin.png",
+          url:"https://www.linkedin.com/in/soumita-nag-a3b529314/",
         },
         {
           label: "github",
           value: "Soumita-Nag",
-          icon: "https://img.icons8.com/ios-filled/50/ffffff/github.png"
+          icon: "https://img.icons8.com/ios-filled/50/ffffff/github.png",
+          url:"https://github.com/Soumita-Nag",
         },
-        {
-          label: "Twitter",
-          value: "Soumita-Nag",
-          icon: "https://img.icons8.com/ios-filled/50/ffffff/twitter.png"
-        },
-        {
-          label: "Instagram",
-          value: "Soumita-Nag",
-          icon: "https://img.icons8.com/ios-filled/50/ffffff/instagram.png"
-        },
+        // {
+        //   label: "Twitter",
+        //   value: "nagsoumita04",
+        //   icon: "https://img.icons8.com/ios-filled/50/ffffff/twitter.png",
+        //   url:"https://x.com/nagsoumita04",
+        // },
+        // {
+        //   label: "Instagram",
+        //   value: "Soumita-Nag",
+        //   icon: "https://img.icons8.com/ios-filled/50/ffffff/instagram.png",
+        //   url:"",
+        // },
         {
           label: "Hackerrank",
-          value: "Soumita-Nag",
-          icon: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-color-tal-revivo.png"
+          value: "nagsoumita04",
+          icon: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-color-tal-revivo.png",
+          url:"https://www.hackerrank.com/profile/nagsoumita04",
         },
         {
           label: "LeetCode",
-          value: "Soumita-Nag",
-          icon: "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
+          value: "Soumita_Nag",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png",
+          url:"https://leetcode.com/u/Soumita_Nag",
         },
         {
           label: "GeeksForGeeks",
-          value: "Soumita-Nag",
-          icon: "https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg"
+          value: "nagsoum3bg1",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg",
+          url:"https://www.geeksforgeeks.org/user/nagsoum3bg1/",
         },
       ]
     };
@@ -127,7 +137,7 @@ export default {
 </script>
 
 <style scoped>
-.emailLogo {
+.Logo {
   background: #111a3e;
   width: 50px;
   height: 46px;

@@ -40,7 +40,7 @@
 
           <!-- Image Container -->
           <div class="w-full h-full rounded-full bg-black p-1 box-border">
-            <img src="@/assets/profile.jpg" alt="Soumita's Photo"
+            <img src="@/assets/dp.jpg" alt="Soumita's Photo"
               loading="lazy"
               class="w-full h-full rounded-full object-cover" />
           </div>

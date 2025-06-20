@@ -14,10 +14,10 @@
           <div v-for="skill in group.skills" :key="skill.id" class="mb-4" data-aos="fade-up">
             <div class="flex items-center justify-between">
               <span class="font-semibold md:w-[10%] w-[15%] uppercase">{{ skill.name }}</span>
-              <div class="mt-2 h-1 lg:w-[65%] w-[50%] bg-[#1f2f4b] rounded-full">
+              <div class="mt-2 h-1 lg:w-[80%] w-[50%] bg-[#1f2f4b] rounded-full">
                 <div class="h-1 rounded-full bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)]" :style="`width: ${skill.width}`"></div>
               </div>
-              <span class="font-semibold w-[8%] lg:w-[10%] text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)]">{{ skill.width }}</span>
+              <!-- <span class="font-semibold w-[8%] lg:w-[10%] text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)]">{{ skill.width }}</span> -->
             </div>
           </div>
         </div>

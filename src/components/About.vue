@@ -44,8 +44,10 @@
           <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)]">About</span>
           Me
         </h2>
-        <p class="text-base lg:text-lg mt-8 py-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et inventore quisquam, maxime mollitia temporibus facere facilis ex dolore porro iure eveniet esse quae, dignissimos molestias pariatur unde assumenda, enim tenetur laudantium accusantium perferendis architecto!
+        <p class="text-base lg:text-lg mt-8 text-center py-8">
+          Hi, I'm Soumita Nag, a dedicated and creative web developer with a strong passion for building visually stunning and highly functional web applications. With a focus on modern frontend technologies like Vue.js and Tailwind CSS, I strive to craft seamless, responsive, and user-friendly digital experiences. My journey into development is driven by curiosity, continuous learning, and a desire to solve real-world problems through clean and efficient code. Whether it's developing elegant interfaces or optimizing performance, I love turning ideas into interactive realities. Beyond code, I'm also an active learner in Data Structures, Algorithms, and emerging tech trends.
+          Currently pursuing my MCA at Jadavpur University, I’ve been actively involved in various projects, from personal passion apps to collaborative team efforts, where I’ve honed my skills in frontend development, problem-solving, and clean UI/UX design. I also take pride in participating in coding challenges and contributing to open-source events like GirlScript Summer of Code and Ninja Slayground.
+          Beyond the code, I’m a martial artist, self-defense student, and a firm believer in discipline and focus—qualities I carry into my development workflow. I’m always looking for new challenges, exciting projects, and meaningful collaborations that push the boundaries of what I can create on the web.
         </p>
       </div>
       <div id="skills"></div>
