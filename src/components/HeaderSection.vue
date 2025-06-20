@@ -1,21 +1,21 @@
 <template>
-  <section class="w-full py-20 px-5 sm:px-8 md:px-12 lg:px-8 max-w-screen-lg xl:max-w-screen-xl mx-auto"  id="home">
+  <section class="w-full lg:py-20 px-5 sm:px-8 md:px-12 lg:px-8 max-w-screen-lg xl:max-w-screen-xl mx-auto"  id="home">
     <div class="grid lg:grid-cols-2 gap-10 xl:gap-14 pt-10 max-w-3xl lg:max-w-none mx-auto" data-aos="zoom-in-up">
       <div class="lg:py-6">
         <!-- Heading -->
         <div class="text-center lg:text-left">
-          <h1 class="text-white font-bold text-4xl md:text-5xl lg:text-6xl">
+          <h1 class="text-white font-bold text-[2rem] md:text-5xl lg:text-6xl">
             Hi, I'm 
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-primary)] to-pink-500">
               Soumita
-            </span> 👻
+            </span>   
             <!-- emoji: windows+. or windows+; -->
           </h1>
         </div>
 
         <!-- Description -->
         <p class="text-gray-300 pt-6 text-center lg:text-left max-w-xl mx-auto lg:mx-0">
-          I’m a passionate web developer building elegant and responsive web applications using Vue.js and Tailwind CSS. 
+            an MCA student at Jadavpur University with a strong passion for web development and problem-solving. I've solved hundreds of DSA problems and love building clean, responsive, and user-focused websites. 
         </p>
 
         <!-- Download Button -->
@@ -33,10 +33,10 @@
       </div>
       <div class="flex justify-center items-center relative h-96 lg:h-full">
         <!-- Glowing Circular Background -->
-        <div class="absolute top-1/2 right-0 -translate-y-1/2 w-92 h-92 sm:w-95 sm:h-95 lg:w-110 lg:h-110 rounded-full bg-gradient-to-tr from-[#570cac] to-[var(--color-primary)] opacity-25 blur-2xl z-0"></div>
+        <div class="absolute top-1/2 right-0 -translate-y-1/2 w-88 h-88 sm:w-95 sm:h-95 lg:w-110 lg:h-110 rounded-full bg-gradient-to-tr from-[#570cac] to-[var(--color-primary)] opacity-25 blur-2xl z-0"></div>
 
         <!-- Gradient Border Wrapper -->
-        <div class="w-92 h-92 sm:w-95 sm:h-95 lg:w-110 lg:h-110 rounded-full p-[3px] bg-gradient-to-tr from-[var(--color-primary)] to-pink-500">
+        <div class="w-88 h-88 sm:w-95 sm:h-95 lg:w-110 lg:h-110 rounded-full p-[3px] bg-gradient-to-tr from-[var(--color-primary)] to-pink-500">
 
           <!-- Image Container -->
           <div class="w-full h-full rounded-full bg-black p-1 box-border">
