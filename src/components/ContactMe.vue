@@ -10,7 +10,7 @@
           I’m always open to new opportunities, collaborations, or just a friendly chat! Whether you have a question, want to discuss a project, or simply want to connect, feel free to drop a message. I’ll try my best to get back to you as soon as possible. Let’s build something awesome together! 
         </p>
 
-        <div class="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-10">
+        <div class="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-10 py-10">
             <div v-for="(item, index) in contacts" :key="index" class="flex items-center">
               <!-- <a :href="item.url"> -->
                 <a class="Logo" v-if="item.url" :href="item.url" target="_blank">

@@ -5,6 +5,7 @@ import About from './components/About.vue';
 import skills from './components/skills.vue';
 import Achievements from './components/Achievements.vue';
 import ContactMe from './components/ContactMe.vue';
+import footerPage from './components/footerPage.vue';
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import ContactMe from './components/ContactMe.vue';
     <skills/>
     <Achievements/>
     <ContactMe/>
+    <footerPage/>
   </div>
 </template>
 <!-- gsap -->
