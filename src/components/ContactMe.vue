@@ -31,13 +31,14 @@
 
       <!-- Right: Form -->
         <div class="bg-[#101838] w-full h-full rounded-2xl border border-none backdrop-blur-lg p-6">
-        <form class="space-y-6" data-aos="zoom-in-up">
+        <form action="https://api.web3forms.com/submit" class="space-y-6" data-aos="zoom-in-up" method="POST">
+          <input type="hidden" name="access_key" value="7e08481c-67df-46e7-ac69-8965dfe1c014">
             <div>
             <label for="email" class="block mb-2 text-sm font-medium text-white">Email</label>
             <div class="focus-within:border-transparent focus-within:bg-gradient-to-r focus-within:from-[var(--color-primary)] focus-within:to-[var(--color-secondary)] p-[2px] rounded-lg transition">
               <input
                 type="email"
-                id="email"
+                id="email" name="email"
                 placeholder="Enter your email"
                 class="w-full p-3 rounded-lg bg-[#111827] text-white placeholder-gray-400 border border-transparent focus:outline-none"
               />
@@ -49,7 +50,7 @@
             <div class="focus-within:border-transparent focus-within:bg-gradient-to-r focus-within:from-[var(--color-primary)] focus-within:to-[var(--color-secondary)] p-[2px] rounded-lg transition">
               <input
                   type="text"
-                  id="subject"
+                  id="subject" name="submit"
                   placeholder="Subject of your message"
                   class="w-full p-3 rounded-lg bg-[#111827] text-white placeholder-gray-400 border border-gray-600 focus:outline-none transition"
               />
@@ -61,7 +62,7 @@
             <div class="focus-within:border-transparent focus-within:bg-gradient-to-r focus-within:from-[var(--color-primary)] focus-within:to-[var(--color-secondary)] p-[2px] rounded-lg transition">
               <textarea
                   id="message"
-                  rows="5"
+                  rows="5" name="message"
                   placeholder="Your message..."
                   class="w-full p-3 rounded-lg bg-[#111827] text-white placeholder-gray-400 border border-gray-600 focus:outline-none transition"
               ></textarea>
@@ -69,7 +70,7 @@
             </div>
 
             <button
-            type="button"
+            type="submit"
             class="w-full px-6 py-3 rounded-full bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)] text-white text-[1.1rem] hover:cursor-pointer font-bold hover:bg-opacity-90 transition border-2 border-transparent"
             >
             Send Message
