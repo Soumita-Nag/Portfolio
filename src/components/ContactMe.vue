@@ -41,6 +41,7 @@
                 id="email" name="email"
                 placeholder="Enter your email"
                 class="w-full p-3 rounded-lg bg-[#111827] text-white placeholder-gray-400 border border-transparent focus:outline-none"
+                required
               />
             </div>
             </div>
@@ -52,7 +53,7 @@
                   type="text"
                   id="subject" name="submit"
                   placeholder="Subject of your message"
-                  class="w-full p-3 rounded-lg bg-[#111827] text-white placeholder-gray-400 border border-gray-600 focus:outline-none transition"
+                  class="w-full p-3 rounded-lg bg-[#111827] text-white placeholder-gray-400 border border-gray-600 focus:outline-none transition" required
               />
             </div>
             </div>
@@ -64,7 +65,7 @@
                   id="message"
                   rows="5" name="message"
                   placeholder="Your message..."
-                  class="w-full p-3 rounded-lg bg-[#111827] text-white placeholder-gray-400 border border-gray-600 focus:outline-none transition"
+                  class="w-full p-3 rounded-lg bg-[#111827] text-white placeholder-gray-400 border border-gray-600 focus:outline-none transition" required
               ></textarea>
             </div>
             </div>
