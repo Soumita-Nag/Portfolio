@@ -1,5 +1,5 @@
 <template>
-  <section id="achievements" class="text-white select-none relative z-10 pt-20">
+  <section id="projects" class="text-white select-none relative z-10 pt-20">
     <h2 class="text-4xl font-bold mb-4 px-4 xl:pl-16">
       My <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)]">Projects</span>
     </h2>

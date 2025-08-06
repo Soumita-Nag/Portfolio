@@ -1,5 +1,5 @@
 <template>
-  <section class="sticky top-0 select-none z-50 flex justify-between items-center p-6 bg-[var(--color-bg)] bg-opacity-90 backdrop-blur-md">
+  <section :class="isMenuOpen?'h-80':''" class="sticky top-0 select-none z-50 flex justify-between  p-6 bg-[var(--color-bg)] bg-opacity-90 backdrop-blur-md">
     <div class="text-white text-3xl font-bold">
       Soumita <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)]">Nag</span>
     </div>
@@ -20,7 +20,7 @@
     <nav
       :class="[
         'fixed inset-0 z-20 bg-[var(--color-bg)] md:relative md:bg-transparent md:flex md:items-center md:space-x-6',
-        isMenuOpen ? 'flex flex-col justify-center space-y-6' : 'hidden md:flex'
+        isMenuOpen ? 'flex flex-col justify-center space-y-6 bg-[var(--color-bg)]' : 'hidden md:flex'
       ]"
     >
       <ul class="flex flex-col items-center md:flex-row md:space-y-0 space-y-6 md:space-x-6">
@@ -47,7 +47,7 @@ export default {
         { name: 'Home', href: '#home' },
         { name: 'About', href: '#about' },
         { name: 'Skills', href: '#skills' },
-        // { name: 'Projects', href: '#projects' }, 
+        { name: 'Projects', href: '#projects' }, 
         { name: 'Achievements', href: '#achievements' },
         { name: 'Contact', href: '#contact' }
       ]
