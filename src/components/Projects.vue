@@ -26,7 +26,7 @@
         </div>
         </div>
         <div v-else data-aos="flip-left" @click="project.frontView=true" class="cursor-pointer bg-[#111a3e]/80 transition-all rounded-2xl shadow-lg flex flex-col justify-between">
-        <div class="px-6 pt-6 h-98">
+        <div class="px-6 pt-6 min-h-98">
           <div class="flex justify-between items-center mb-4">
             <h3 class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)] font-bold text-2xl">{{ project.name }}</h3>
             
