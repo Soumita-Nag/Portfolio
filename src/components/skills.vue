@@ -1,5 +1,5 @@
 <template>
-  <section class="text-white relative z-10">
+  <section class="text-white select-none relative z-10">
     <div class="py-8 px-4 xl:px-16">
       <h2 class="text-4xl font-bold mb-10 text-left">
         My

@@ -1,5 +1,5 @@
 <template>
-    <section class="pt-25 pb-10 text-white flex flex-col w-full">
+    <section class="pt-25 pb-10 text-white select-none flex flex-col w-full">
         <div class="pb-10">
             <hr class=" text-gray-600 text-center w-[80%] mx-auto">
         </div>

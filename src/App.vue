@@ -3,6 +3,7 @@ import NavBar from './components/NavBar.vue';
 import HeaderSection from './components/HeaderSection.vue'
 import About from './components/About.vue';
 import skills from './components/skills.vue';
+import Projects from './components/Projects.vue';
 import Achievements from './components/Achievements.vue';
 import ContactMe from './components/ContactMe.vue';
 import footerPage from './components/footerPage.vue';
@@ -14,6 +15,7 @@ import footerPage from './components/footerPage.vue';
     <HeaderSection/>
     <About/>
     <skills/>
+    <Projects/>
     <Achievements/>
     <ContactMe/>
     <footerPage/>

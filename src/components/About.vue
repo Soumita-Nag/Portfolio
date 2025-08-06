@@ -1,5 +1,5 @@
 <template>
-  <section class="text-white mt-10">  
+  <section class="text-white mt-10 select-none">  
     <!-- Main Grid Layout -->
     <div class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-8 sm:py-16 xl:px-16 relative z-10">
     <!-- Education Section -->
@@ -9,7 +9,7 @@
             <div
             v-for="e in education"
             :key="e.id"
-            class="flex items-center w-full md:w-[80%] bg-[#111a3e]/80 border border-[#1f1641] rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-4 backdrop-blur-md"
+            class="flex items-center hover:scale-105 hover:bg-[#152049] cursor-pointer w-full md:w-[80%] bg-[#111a3e]/80 border border-[#1f1641] rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 p-4 backdrop-blur-md"
             >
             <!-- Image with ring effect -->
             <div class="w-1/4 flex justify-center items-center">
